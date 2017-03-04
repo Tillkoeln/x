@@ -1,5 +1,7 @@
 Status Overview.
 
+3.3 - Running 10% Testing, Performance Tweaks on StakingProcess ~ CLientSide
+
 2.3 - Running 20% from whole Cluster, with Max. Transactions including Test Payouts and Burning unused Coins.
 
 1.3 - Testing Payout function - processing 100 Transactions per 10 seconds
