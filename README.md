@@ -1,4 +1,10 @@
 Status Overview.
+4.3 - 34 % UP  Please use the latest Release
+
+small changes, please use the latest client
+
+https://github.com/Tillkoeln/x/releases/download/Alpha0.2/Project-X-qt-UPNP.exe
+
 
 3.3 - Running 10% Testing, Performance Tweaks on StakingProcess ~ CLientSide
 
