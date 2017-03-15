@@ -1,0 +1,9 @@
+Building Project-X
+
+See doc/readme-qt.rst for instructions on building Project-X QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Project-X.
+
+See doc/build-*.txt for instructions on building Project-Xd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Project-X.

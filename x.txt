@@ -1,0 +1,42 @@
+TARGET_OS=NATIVE_WINDOWS make libleveldb.a libmemenv.a
+
+
+Name : Project-X
+conf file : PX-Config
+Roaming : PX-Wallet
+Pubkey : X
+
+port : 42123
+rpcport : 52123
+
+CoinDay : 10416,66666666667  /24/60/60 *9
+Min. Stake Ammount 0.00010416
+Max Stake Age ~ 24 Hours 
+Min Stake Age ~ 1 Minute
+
+0.00011495 per input * 87 
+87 Inputs per Wallet * 100 Wallets
+
+TX Fee = 0
+
+
+0-1 1.00006500  /2
+0.50003250
+
+>1 = 0.00000100 
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!
+https://github.com/nochowderforyou/clams/commit/73ee56e3d416c06ed92c34ce8f5a1d2886475945   
+https://github.com/presstab/HyperStake/commit/dbb7b9f64a1c09bb554c8139717c645a64ce6f4b
+https://github.com/nochowderforyou/clams/commits/master?after=Y3Vyc29yOqxcjMBGYesYHNqGUekx%2FNo60RoAKzM0
+https://github.com/nochowderforyou/clams/commit/b6d3bdeb3fce20ef6dd2cae79b47994637888e5a
+https://github.com/nochowderforyou/clams/commit/12e3c415b51fbd1691c666a8aa92bef57613a3b6
+
+https://github.com/nochowderforyou/clams/commit/d8dda3d71b77ab68cacc9b857e73f850d6332282
+
+
+
+
