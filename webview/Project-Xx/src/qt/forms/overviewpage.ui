@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>573</width>
-    <height>342</height>
+    <width>693</width>
+    <height>570</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -238,6 +238,18 @@
       </widget>
      </item>
      <item>
+      <widget class="QWebView" name="webView">
+       <property name="url">
+        <url>
+         <string>https://github.com/Tillkoeln/x/releases</string>
+        </url>
+       </property>
+       <property name="zoomFactor">
+        <double>0.500000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
       <spacer name="verticalSpacer">
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -326,6 +338,18 @@
       </widget>
      </item>
      <item>
+      <widget class="QWebView" name="webView_2">
+       <property name="url">
+        <url>
+         <string>https://project-nanox.slack.com/shared_invite/MTU0MTYzMjY2OTEyLTE0ODk1OTk0NDMtNGEwNmVmOTQ2Ng</string>
+        </url>
+       </property>
+       <property name="zoomFactor">
+        <double>0.500000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
       <spacer name="verticalSpacer_2">
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -342,6 +366,13 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKit/QWebView</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
