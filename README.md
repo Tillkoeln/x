@@ -1,3 +1,23 @@
+Status Overview.
+
+8.3 - 0.0.5 > https://github.com/Tillkoeln/x/releases 
+
+4.3 - 34 % UP  https://github.com/Tillkoeln/x/releases/download/Alpha0.2/Project-X-qt-UPNP.exe
+
+3.3 - Running 10% Testing, Performance Tweaks on StakingProcess ~ CLientSide
+
+2.3 - Running 20% from whole Cluster, with Max. Transactions including Test Payouts and Burning unused Coins.
+
+1.3 - Testing Payout function - processing 100 Transactions per 10 seconds
+
+1.3 - Testing Network, BlockChain - 10% Online and Running
+
+28.2 - Testing function and Network Stability
+
+28.2 - Finished Pre-Alpha Client 
+
+
+
 # x Project X 
 
 Phase 1, Friends & Family Alpha 
