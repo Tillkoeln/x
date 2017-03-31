@@ -4,6 +4,12 @@ Status Overview.
 
 31.3 Alpha & Pre-Beta Test Version.  Participants can trade her earned on https://novaexchange.com/market/BTC_NANOX/
 
+31.3 https://github.com/Tillkoeln/Project-X 
+
+-
+
+--
+
 26.3 Pre-Beta Downloader Version 0.0.7 https://github.com/Tillkoeln/x/releases
 
 ..
