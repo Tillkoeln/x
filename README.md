@@ -1,6 +1,7 @@
 Status Overview.
 
 31.3 Server Maintance 1pm ~ 3pm  CET+1 
+
 31.3 Alpha & Pre-Beta Test Version.  Participants can trade her earned on https://novaexchange.com/market/BTC_NANOX/
 
 26.3 Pre-Beta Downloader Version 0.0.7 https://github.com/Tillkoeln/x/releases
