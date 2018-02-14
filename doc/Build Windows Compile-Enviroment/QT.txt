@@ -19,12 +19,12 @@ Now... for the graphical wallet... and we're going to go really fast because you
 --------------
 4.1 Download and unpack Qt base and tools sources:
 
-a) http://download.qt-project.org/official_releases/qt/5.2/5.2.0/submodules/qtbase-opensource-src-5.2.0.7z
+a) http://download.qt-project.org/archive/qt/5.2/5.2.0/submodules/qtbase-opensource-src-5.2.0.7z
 * Make a directory called C:\Qt
 * Unpack the contents of the file into C:\Qt
 * Rename the directory from qtbase-opensource-src-5.2.0 to 5.2.0
 
-b) http://download.qt-project.org/official_releases/qt/5.2/5.2.0/submodules/qttools-opensource-src-5.2.0.7z
+b) http://download.qt-project.org/archive/qt/5.2/5.2.0/submodules/qttools-opensource-src-5.2.0.7z
 * Unpack the contents of the file into C:\Qt
 
 c) Open a command prompt and type:
