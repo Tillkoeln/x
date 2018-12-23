@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = Project-X
-VERSION = 0.9.1
+VERSION = 0.9.3
 INCLUDEPATH += src src/json src/qt
 QT += core gui network 
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
@@ -288,7 +288,8 @@ HEADERS += src/qt/bitcoingui.h \
     src/sph_types.h \
     src/clientversion.h \
     src/clientversion.h \
-    src/qt/merchantpage.h 
+    src/qt/merchantpage.h \
+	src/qt/stakereportdialog.h
 
 SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/transactiontablemodel.cpp \
@@ -353,6 +354,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/qtipcserver.cpp \
     src/qt/rpcconsole.cpp \
 	src/qt/multisenddialog.cpp \
+	src/qt/stakereportdialog.cpp \
     src/noui.cpp \
     src/kernel.cpp \
     src/scrypt-arm.S \
@@ -390,6 +392,7 @@ FORMS += \
     src/qt/forms/rpcconsole.ui \
     src/qt/forms/optionsdialog.ui \
 	src/qt/forms/merchants.ui \
+	src/qt/forms/stakereportdialog.ui
 
 contains(USE_QRCODE, 1) {
 HEADERS += src/qt/qrcodedialog.h

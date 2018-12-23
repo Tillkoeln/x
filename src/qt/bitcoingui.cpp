@@ -28,6 +28,7 @@
 #include "guiutil.h"
 #include "rpcconsole.h"
 #include "wallet.h"
+#include "stakereportdialog.h"	
 
 #ifdef Q_OS_MAC
 #include "macdockiconhandler.h"
@@ -309,6 +310,9 @@ void BitcoinGUI::createActions()
     signMessageAction = new QAction(QIcon(":/icons/edit"), tr("Sign &message..."), this);
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
 
+    stakeReportAction = new QAction(QIcon(":/icons/minting"), tr("Show stake report"), this);
+    stakeReportAction->setToolTip(tr("Open the Stake Report Box"));		 
+	
     exportAction = new QAction(QIcon(":/icons/export"), tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
     openRPCConsoleAction = new QAction(QIcon(":/icons/debugwindow"), tr("&Debug Window"), this);
@@ -326,6 +330,7 @@ void BitcoinGUI::createActions()
     connect(lockWalletAction, SIGNAL(triggered()), this, SLOT(lockWallet()));
     connect(signMessageAction, SIGNAL(triggered()), this, SLOT(gotoSignMessageTab()));
     connect(verifyMessageAction, SIGNAL(triggered()), this, SLOT(gotoVerifyMessageTab()));
+	connect(stakeReportAction, SIGNAL(triggered()), this, SLOT(stakeReportClicked()));
 }
 
 void BitcoinGUI::createMenuBar()
@@ -355,6 +360,9 @@ void BitcoinGUI::createMenuBar()
     settings->addAction(multiSendAction);	
     settings->addSeparator();
     settings->addAction(optionsAction);
+	
+	QMenu *information = appMenuBar->addMenu(tr("Information"));	
+	information->addAction(stakeReportAction);	
 
     QMenu *help = appMenuBar->addMenu(tr("&Help"));
     help->addAction(openRPCConsoleAction);
@@ -527,6 +535,15 @@ void BitcoinGUI::multiSendClicked(QString addr)
     exportAction->setEnabled(false);
     disconnect(exportAction, SIGNAL(triggered()), 0, 0);
 }
+
+// Stake report dialog
+void BitcoinGUI::stakeReportClicked()
+{
+    static StakeReportDialog dlg;
+    dlg.setModel(walletModel);
+    dlg.show();
+}
+
 
 void BitcoinGUI::setNumConnections(int count)
 {

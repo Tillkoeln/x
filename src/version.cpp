@@ -8,7 +8,7 @@
 // Name of client reported in the 'version' message. Report the same name
 // for both bitcoind and bitcoin-qt, to make it harder for attackers to
 // target servers or GUI users specifically.
-const std::string CLIENT_NAME("NanoX-Hydra");
+const std::string CLIENT_NAME("NanoX-StakeReport");
 
 // Client version number
 #define CLIENT_VERSION_SUFFIX   ""
@@ -37,7 +37,7 @@ const std::string CLIENT_NAME("NanoX-Hydra");
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
 #    define GIT_COMMIT_ID ""
-#    define GIT_COMMIT_DATE "July 24, 2014"
+#    define GIT_COMMIT_DATE "December 24, 2018"
 #endif
 
 #define BUILD_DESC_FROM_COMMIT(maj,min,rev,build,commit) \
